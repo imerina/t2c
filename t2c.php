@@ -130,6 +130,6 @@ try {
  * @param string $message
  */
 function e($message) {
-  echo iconv("UTF-8", "CP437", $message);
+  echo iconv("UTF-8", "CP437//IGNORE", $message);
 }
 
