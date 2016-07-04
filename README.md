@@ -4,9 +4,10 @@ Outil générant une classe métier à partir d'une table SQL
 Fonctionne en ligne de commande via PHP.
 
 ## Paramètres
--b la base de données MySQL
--t la table (* si toutes les tables de la base doivent être générées)
-Les user/password sont écrits en dur dans le script PHP de l'outil
+
+* -b la base de données MySQL
+* -t la table (* si toutes les tables de la base doivent être générées)
+* Les user/password sont écrits en dur dans le script PHP de l'outil
 
 ## Utilisation
 php.exe -f t2c.php -- -b MaBase 
