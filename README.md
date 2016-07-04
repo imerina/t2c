@@ -20,6 +20,7 @@ php.exe -f t2c.php -- -b MaBase -t MaTable
 * On accède aux propriétés via des méthodes (getter/setter)
 * Une méthode "populate" permet d'hydrater la classe (transforme un array en objet)
 * Une méthode "display" affiche la liste des propriétés au format HTML
+* Les commentaires dans la classe contiennent le type MySQL et éventuellement le contenu du commentaire MySQL
 
 ## Sortie
 Crée un sous-dossier 'output' (si nécessaire) et y place les classes générées.
