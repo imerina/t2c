@@ -1,6 +1,5 @@
 # t2c
-Outil générant une classe métier à partir d'une table SQL
-
+Outil générant une classe métier à partir d'une table SQL. 
 Fonctionne en ligne de commande via PHP.
 
 ## Paramètres
@@ -10,7 +9,9 @@ Fonctionne en ligne de commande via PHP.
 * Les user/password sont écrits en dur dans le script PHP de l'outil
 
 ## Utilisation
-php.exe -f t2c.php -- -b MaBase 
+
+php.exe -f t2c.php -- -b MaBase
+
 php.exe -f t2c.php -- -b MaBase -t MaTable
 
 ## Fonctionnalités
