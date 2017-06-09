@@ -50,7 +50,8 @@ if ($table == '*') {
     exit(99);
   }
   foreach ($rows as $row) {
-    $tables[] = $row['Tables_in_wikipizza'];
+
+    $tables[] = $row["Tables_in_$base"];
   }
 } else {
   $tables[] = $table;
